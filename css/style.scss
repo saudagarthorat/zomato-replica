@@ -1,3 +1,213 @@
-@use './reset.scss';
+@use './reset.css';
 
-/* Add your css here */
+body{
+    margin: 0;
+}
+.nav_item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+  img{
+    width: 40px;
+    float: left;
+  }
+  .link{
+    margin: 16px;
+    display: inline;
+    flex: 90%;
+  }
+#h{
+    color:black;
+    float: right;
+    margin: 16px;
+    text-decoration: none;
+    flex:50%;
+    a{
+      color: black;
+    }
+  }
+ 
+  #login{
+    margin: 10px;
+    float:right;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .log{
+    height: 60px;
+  }
+  .search-restaurant{
+    display: flex;
+  }
+  #search-rest{
+    display: block;
+   margin-left: 300;
+   width: 40%;
+   margin-top:240px ;
+   flex: 70%;
+   margin-right: 20px;
+  }
+  #search-btn{
+  height: 30px;
+  margin-top:240px ;
+   background-color: red;
+   color: white;
+   display: block;
+   flex: 30%;
+   margin-left: 40px;
+   margin-right: 40px;
+  }
+  #sb{
+    margin-left: 300;
+    width: 40%;
+    margin-top: -90px;
+    display: block;
+    opacity: 0.7;
+  }
+  .banner{
+height: 300px;
+width: 100%;
+background-image: url(https://b.zmtcdn.com/images/foodshots/cover/pizza3.jpg?output-format=webp);
+  }
+.widget{
+  width: 50%;
+  h4{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+ .order-btn{
+  width: 37%; background: green; color: white;
+  height: 45px;
+  width: 100%;
+ }
+ .categories{
+   ul{
+     display: flex;
+     margin-left: 30px;
+     list-style-type: none;
+    }
+     img{
+      width: 100%;
+      height: 200px ;
+      flex-direction: column;
+      list-style-type: none;
+     }
+
+   }
+   
+   .row{
+     display: flex;
+     list-style-type: none;
+   }
+   .locality-list{
+     flex: 33.33%;
+     list-style-type: none;
+   }
+
+
+   .footer-wrapper{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+  }
+  .fot_row{
+    flex: 25%;
+    list-style-type: none;
+  }
+  #fot-logo{
+    margin-top: -100px;
+    width: 80px;
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 500px) {
+    body{
+      margin: 0;
+      
+  }
+
+   .h-container{width: 100%;}
+    .nav_item{
+      list-style-type: none;
+      overflow: hidden;
+      display: flex;
+      width: 100%;
+  }
+    .link{
+      margin: 16px;
+      width: 50%;
+    }
+  #h {
+      flex: 50%;
+      margin: 16px;
+      width: 100%
+
+      a{
+        color: black;  
+      }
+    }
+    .log{
+      width: 100%;
+    }
+.search-restaurant{
+  padding-top: 250px;
+  width: 100%;
+}
+    #search-rest{
+      width: 100%;
+      padding: 0;
+      margin: 0%;
+      display: block;
+    }
+    #search-btn{
+     width: 100%;
+     padding: 0;
+     background-color: red;
+     color: white;
+     margin: 0%;
+     display: block;
+    }
+    #sb{
+      width: 100%;
+      margin-top: -120px;
+      display: block;
+      margin-left: 0;
+      padding: 0;
+      opacity: 0.7;
+  }
+  .widget{
+    width: 100%;
+    h4{
+      width: 100%;
+      text-align: center;
+    }
+  
+  }
+   .order-btn{
+    width: 37%; background: green; color: white;
+    height: 45px;
+    width: 100%;
+   }
+   
+   .categories-list{
+     #im{
+       display: block;
+       width: 100%;
+     }
+   }
+
+   
+}
