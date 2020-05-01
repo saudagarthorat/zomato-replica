@@ -1,0 +1,244 @@
+@use './reset.css';
+body {
+  margin: 0;
+}
+
+.nav_item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  width: 40px;
+  float: left;
+}
+
+.link {
+  margin: 16px;
+  display: inline;
+  -webkit-box-flex: 90%;
+      -ms-flex: 90%;
+          flex: 90%;
+}
+
+#h {
+  color: black;
+  float: right;
+  margin: 16px;
+  text-decoration: none;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+#h a {
+  color: black;
+}
+
+#login {
+  margin: 10px;
+  float: right;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.log {
+  height: 60px;
+}
+
+.search-restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#search-rest {
+  display: block;
+  margin-left: 300;
+  width: 40%;
+  margin-top: 240px;
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  margin-right: 20px;
+}
+
+#search-btn {
+  height: 30px;
+  margin-top: 240px;
+  background-color: red;
+  color: white;
+  display: block;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#sb {
+  margin-left: 300;
+  width: 40%;
+  margin-top: -90px;
+  display: block;
+  opacity: 0.7;
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  background-image: url(https://b.zmtcdn.com/images/foodshots/cover/pizza3.jpg?output-format=webp);
+}
+
+.widget {
+  width: 50%;
+}
+
+.widget h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.order-btn {
+  width: 37%;
+  background: green;
+  color: white;
+  height: 45px;
+  width: 100%;
+}
+
+.categories ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.categories img {
+  width: 100%;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.locality-list {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  list-style-type: none;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+}
+
+.fot_row {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  list-style-type: none;
+}
+
+#fot-logo {
+  margin-top: -100px;
+  width: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+  .h-container {
+    width: 100%;
+  }
+  .nav_item {
+    list-style-type: none;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .link {
+    margin: 16px;
+    width: 50%;
+  }
+  #h {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    margin: 16px;
+    width: 100% a;
+    width-color: black;
+  }
+  .log {
+    width: 100%;
+  }
+  .search-restaurant {
+    padding-top: 250px;
+    width: 100%;
+  }
+  #search-rest {
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+    display: block;
+  }
+  #search-btn {
+    width: 100%;
+    padding: 0;
+    background-color: red;
+    color: white;
+    margin: 0%;
+    display: block;
+  }
+  #sb {
+    width: 100%;
+    margin-top: -120px;
+    display: block;
+    margin-left: 0;
+    padding: 0;
+    opacity: 0.7;
+  }
+  .widget {
+    width: 100%;
+  }
+  .widget h4 {
+    width: 100%;
+    text-align: center;
+  }
+  .order-btn {
+    width: 37%;
+    background: green;
+    color: white;
+    height: 45px;
+    width: 100%;
+  }
+  .categories-list #im {
+    display: block;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
