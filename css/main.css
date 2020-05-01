@@ -1,0 +1,117 @@
+@use './reset.css';
+
+body{
+    margin: 0;
+}
+.nav_item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+#id{
+  display: inline;
+}
+  img{
+    width: 40px;
+    float: left;
+  }
+.nav_item li  a{
+    color:black;
+    float: right;
+    margin: 16px;
+    text-decoration: none;
+    flex:70%;
+  }
+  .nav_item  a{
+    margin: 16px;
+    display: inline;
+    flex: 30%;
+  }
+  #login{
+    margin: 10px;
+    float:right;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .log{
+    height: 60px;
+  }
+  .search-restaurant{
+    display: flex;
+  }
+  #search-rest{
+    display: block;
+   margin-left: 300;
+   width: 40%;
+   margin-top:240px ;
+   flex: 70%;
+   margin-right: 20px;
+  }
+  #search-btn{
+  height: 30px;
+  margin-top:240px ;
+   background-color: red;
+   color: white;
+   display: block;
+   flex: 30%;
+   margin-left: 40px;
+   margin-right: 40px;
+  }
+  #sb{
+    margin-left: 300;
+    width: 40%;
+    margin-top: -90px;
+    display: block;
+    opacity: 0.7;
+  }
+  .banner{
+height: 300px;
+position: fixed;
+width: 100%;
+background-image: url(https://b.zmtcdn.com/images/foodshots/cover/pizza3.jpg?output-format=webp);
+  }
+ 
+
+  @media screen and (max-width: 500px) {
+    .nav_item{
+    display: flex;
+    }
+    .nav_item  a{
+      flex:50%;
+      width: 100%;
+    }
+    .h{
+
+    }
+    .nav_item li a{ 
+      margin: 16px;
+      display: block;
+    }
+.search-restaurant{
+  padding-top: 250px;
+}
+    #search-rest{
+      width: 100%;
+      padding: 0;
+      margin: 0%;
+      display: block;
+    }
+    #search-btn{
+     width: 100%;
+     padding: 0;
+     background-color: red;
+     color: white;
+     margin: 0%;
+     display: block;
+    }
+    #sb{
+      width: 100%;
+      margin-top: -120px;
+      display: block;
+      margin-left: 0;
+      padding: 0;
+      opacity: 0.7;
+  }
+}
